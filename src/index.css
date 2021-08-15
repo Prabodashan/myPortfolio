@@ -19,10 +19,15 @@ body {
   min-height: 100vh;
 }
 
+div {
+  border-radius: 10px;
+}
+
 a {
   text-decoration: none;
   margin: 10px;
   transition: all 0.3s ease-in;
+  border-radius: 7px;
 }
 
 ul {
