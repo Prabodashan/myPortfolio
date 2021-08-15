@@ -9,7 +9,7 @@ const Skills = () => {
         <div class="content">
           <div class="skills-details">
             <div class="text">
-              <div class="topic">Skills about Frontend</div>
+              <div class="topic">Frontend</div>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
                 natus tenetur tempora? Quasi, rem quas omnis. Porro rem
@@ -17,10 +17,6 @@ const Skills = () => {
                 Illo libero, et, distinctio repellat sed nesciunt est modi
                 quaerat placeat. Quod molestiae, alias?
               </p>
-              <div class="experience">
-                <div class="num">10</div>
-                <div class="exp">Years Of Experience</div>
-              </div>
             </div>
             <div class="boxes">
               <div class="box">
@@ -65,7 +61,7 @@ const Skills = () => {
         <div class="content">
           <div class="skills-details">
             <div class="text">
-              <div class="topic">Skills about Backend</div>
+              <div class="topic">Backend</div>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
                 natus tenetur tempora? Quasi, rem quas omnis. Porro rem
@@ -73,10 +69,6 @@ const Skills = () => {
                 Illo libero, et, distinctio repellat sed nesciunt est modi
                 quaerat placeat. Quod molestiae, alias?
               </p>
-              <div class="experience">
-                <div class="num">10</div>
-                <div class="exp">Years Of Experience</div>
-              </div>
             </div>
             <div class="boxes">
               <div class="box">
@@ -103,7 +95,7 @@ const Skills = () => {
         <div class="content">
           <div class="skills-details">
             <div class="text">
-              <div class="topic">Skills about Database</div>
+              <div class="topic">Database</div>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
                 natus tenetur tempora? Quasi, rem quas omnis. Porro rem
@@ -111,10 +103,6 @@ const Skills = () => {
                 Illo libero, et, distinctio repellat sed nesciunt est modi
                 quaerat placeat. Quod molestiae, alias?
               </p>
-              <div class="experience">
-                <div class="num">10</div>
-                <div class="exp">Years Of Experience</div>
-              </div>
             </div>
             <div class="boxes">
               <div class="box">
@@ -135,7 +123,7 @@ const Skills = () => {
         <div class="content">
           <div class="skills-details">
             <div class="text">
-              <div class="topic">Skills about Devops</div>
+              <div class="topic">Devops</div>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
                 natus tenetur tempora? Quasi, rem quas omnis. Porro rem
@@ -143,10 +131,6 @@ const Skills = () => {
                 Illo libero, et, distinctio repellat sed nesciunt est modi
                 quaerat placeat. Quod molestiae, alias?
               </p>
-              <div class="experience">
-                <div class="num">10</div>
-                <div class="exp">Years Of Experience</div>
-              </div>
             </div>
             <div class="boxes">
               <div class="box ski">
