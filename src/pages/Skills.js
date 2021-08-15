@@ -2,66 +2,161 @@ import { useState } from "react";
 import { skillsHave } from "../data/skill";
 
 const Skills = () => {
-  const [skills] = useState(skillsHave);
-
   return (
     <>
-      <section className="skill-page">
-        <h1>My skillS</h1>
-        <div className="row frontend">
-          {skills.map((skill) => {
-            const { id, name, type, image } = skill;
-            if (type === "Frontend") {
-              return (
-                <div className="myskil" key={id}>
-                  <img src={image} alt={name} />
-                  <p>{name}</p>
+      <section class="skills">
+        <h1>My Skills</h1>
+        <div class="content">
+          <div class="skills-details">
+            <div class="text">
+              <div class="topic">Skills about Frontend</div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
+                natus tenetur tempora? Quasi, rem quas omnis. Porro rem
+                aspernatur reiciendis ut praesentium minima ad, quos, officia!
+                Illo libero, et, distinctio repellat sed nesciunt est modi
+                quaerat placeat. Quod molestiae, alias?
+              </p>
+              <div class="experience">
+                <div class="num">10</div>
+                <div class="exp">Years Of Experience</div>
+              </div>
+            </div>
+            <div class="boxes">
+              <div class="box">
+                <div class="topic">HTML</div>
+                <div class="per">
+                  <img src="./images/logos/html.png" alt="" />
                 </div>
-              );
-            }
-          })}
+              </div>
+              <div class="box">
+                <div class="topic">CSS</div>
+                <div class="per">
+                  <img src="./images/logos/css.png" alt="" />
+                </div>
+              </div>
+              <div class="box">
+                <div class="topic">JavScript</div>
+                <div class="per">
+                  <img src="./images/logos/javascript.png" alt="" />
+                </div>
+              </div>
+              <div class="box">
+                <div class="topic">Bootstrap</div>
+                <div class="per">
+                  <img src="./images/logos/bootstrap.png" alt="" />
+                </div>
+              </div>
+              <div class="box">
+                <div class="topic">React</div>
+                <div class="per">
+                  <img src="./images/logos/react.png" alt="" />
+                </div>
+              </div>
+              <div class="box">
+                <div class="topic">Angular</div>
+                <div class="per">
+                  <img src="./images/logos/angular.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div className="row backend">
-          {skills.map((skill) => {
-            const { id, name, type, image } = skill;
-            if (type === "Backend") {
-              return (
-                <div className="myskil" key={id}>
-                  <img src={image} alt={name} />
-                  <p>{name}</p>
+        <div class="content">
+          <div class="skills-details">
+            <div class="text">
+              <div class="topic">Skills about Backend</div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
+                natus tenetur tempora? Quasi, rem quas omnis. Porro rem
+                aspernatur reiciendis ut praesentium minima ad, quos, officia!
+                Illo libero, et, distinctio repellat sed nesciunt est modi
+                quaerat placeat. Quod molestiae, alias?
+              </p>
+              <div class="experience">
+                <div class="num">10</div>
+                <div class="exp">Years Of Experience</div>
+              </div>
+            </div>
+            <div class="boxes">
+              <div class="box">
+                <div class="topic">Node</div>
+                <div class="per">
+                  <img src="./images/logos/node.png" alt="" />
                 </div>
-              );
-            }
-          })}
+              </div>
+              <div class="box">
+                <div class="topic">PHP</div>
+                <div class="per">
+                  <img src="./images/logos/php.png" alt="" />
+                </div>
+              </div>
+              <div class="box">
+                <div class="topic">Laravel</div>
+                <div class="per">
+                  <img src="./images/logos/laravel.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div className="row database">
-          {skills.map((skill) => {
-            const { id, name, type, image } = skill;
-            if (type === "Database") {
-              return (
-                <div className="myskil" key={id}>
-                  <img src={image} alt={name} />
-                  <p>{name}</p>
+        <div class="content">
+          <div class="skills-details">
+            <div class="text">
+              <div class="topic">Skills about Database</div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
+                natus tenetur tempora? Quasi, rem quas omnis. Porro rem
+                aspernatur reiciendis ut praesentium minima ad, quos, officia!
+                Illo libero, et, distinctio repellat sed nesciunt est modi
+                quaerat placeat. Quod molestiae, alias?
+              </p>
+              <div class="experience">
+                <div class="num">10</div>
+                <div class="exp">Years Of Experience</div>
+              </div>
+            </div>
+            <div class="boxes">
+              <div class="box">
+                <div class="topic">mongoDB</div>
+                <div class="per">
+                  <img src="./images/logos/mongo.png" alt="" />
                 </div>
-              );
-            }
-          })}
+              </div>
+              <div class="box">
+                <div class="topic">Firebase</div>
+                <div class="per">
+                  <img src="./images/logos/firebase.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div className="row devops">
-          {skills.map((skill) => {
-            const { id, name, type, image } = skill;
-            if (type === "Devops") {
-              return (
-                <div className="myskil" key={id}>
-                  <img src={image} alt={name} />
-                  <p>{name}</p>
+        <div class="content">
+          <div class="skills-details">
+            <div class="text">
+              <div class="topic">Skills about Devops</div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
+                natus tenetur tempora? Quasi, rem quas omnis. Porro rem
+                aspernatur reiciendis ut praesentium minima ad, quos, officia!
+                Illo libero, et, distinctio repellat sed nesciunt est modi
+                quaerat placeat. Quod molestiae, alias?
+              </p>
+              <div class="experience">
+                <div class="num">10</div>
+                <div class="exp">Years Of Experience</div>
+              </div>
+            </div>
+            <div class="boxes">
+              <div class="box ski">
+                <div class="topic">Git</div>
+                <div class="per">
+                  <img src="./images/logos/git.png" alt="" />
                 </div>
-              );
-            }
-          })}
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </>
